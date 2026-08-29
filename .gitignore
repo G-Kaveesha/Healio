@@ -1,0 +1,50 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+android/.gradle/
+android/app/build/
+ios/Pods/
+
+# Environment files
+.env
+.env.*
+backend/.env
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Old / duplicate project copies
+app-example/
+eas-archive/
+
+# Android signing / keystore files
+*.keystore
+*.jks
+# Local AI/development configuration
+.claude/
+CLAUDE.md
+AGENTS.md
+
+backend/test_gemini.py
